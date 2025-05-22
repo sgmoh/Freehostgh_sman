@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request, redirect, url_for, session, flash
 import os
 import time
 from dotenv import load_dotenv
@@ -8,20 +8,21 @@ import threading
 load_dotenv()
 
 app = Flask(__name__)
+app.secret_key = os.urandom(24)  # Secure random secret key
 
 # Bot stats storage
 bot_stats = {
-    'name': '.gg/gazaguild',  # Default bot name
+    'name': 'Not Connected',
     'uptime': '0h 0m 0s',
-    'servers': 1,
+    'servers': 0,
     'commands': 25,
-    'status': 'Online'
+    'status': 'Waiting for Token...'
 }
 
 start_time = time.time()
 
-def get_bot_info():
-    """Get bot information safely"""
+def get_bot_info_with_token(token):
+    """Get bot information using provided token"""
     global bot_stats
     
     try:
@@ -37,36 +38,68 @@ def get_bot_info():
                             command_count += 3  # Approximate commands per file
         
         bot_stats['commands'] = max(command_count, 25)
-        bot_stats['status'] = 'Online'
         
-        # Try to get bot name from Discord token (safely)
-        token = os.getenv('DISCORD_BOT_TOKEN')
+        # Try to get bot info from Discord API
         if token:
             try:
-                # Use Discord API to get bot info
                 headers = {'Authorization': f'Bot {token}'}
-                response = requests.get('https://discord.com/api/v9/users/@me', headers=headers, timeout=5)
+                response = requests.get('https://discord.com/api/v9/users/@me', headers=headers, timeout=10)
                 if response.status_code == 200:
                     data = response.json()
-                    bot_stats['name'] = data.get('username', '.gg/gazaguild')
+                    bot_stats['name'] = data.get('username', 'Unknown Bot')
+                    bot_stats['status'] = 'Online'
                     
-                # Get guild count
-                response = requests.get('https://discord.com/api/v9/users/@me/guilds', headers=headers, timeout=5)
-                if response.status_code == 200:
-                    guilds = response.json()
-                    bot_stats['servers'] = len(guilds)
-            except:
-                pass  # Keep defaults if API fails
+                    # Get guild count
+                    response = requests.get('https://discord.com/api/v9/users/@me/guilds', headers=headers, timeout=10)
+                    if response.status_code == 200:
+                        guilds = response.json()
+                        bot_stats['servers'] = len(guilds)
+                    else:
+                        bot_stats['servers'] = 1  # Default
+                        
+                    return True
+                else:
+                    bot_stats['status'] = 'Invalid Token'
+                    return False
+            except Exception as e:
+                bot_stats['status'] = 'Connection Error'
+                return False
                 
     except Exception as e:
-        print(f"Info fetch error: {e}")
-        # Keep defaults
-
-# Start bot info fetching in background
-threading.Thread(target=get_bot_info, daemon=True).start()
+        bot_stats['status'] = 'System Error'
+        return False
+    
+    return False
 
 @app.route('/')
+def index():
+    if 'discord_token' not in session:
+        return redirect(url_for('login'))
+    return redirect(url_for('dashboard'))
+
+@app.route('/login', methods=['GET', 'POST'])
+def login():
+    if request.method == 'POST':
+        token = request.form.get('discord_token', '').strip()
+        
+        if token:
+            # Test the token
+            if get_bot_info_with_token(token):
+                session['discord_token'] = token
+                flash('Successfully connected to Discord!', 'success')
+                return redirect(url_for('dashboard'))
+            else:
+                flash('Invalid Discord token. Please check and try again.', 'error')
+        else:
+            flash('Please enter a Discord token.', 'error')
+    
+    return render_template('login.html')
+
+@app.route('/dashboard')
 def dashboard():
+    if 'discord_token' not in session:
+        return redirect(url_for('login'))
+    
     global bot_stats, start_time
     
     # Calculate uptime
@@ -76,10 +109,20 @@ def dashboard():
     seconds = uptime_seconds % 60
     uptime_str = f"{hours}h {minutes}m {seconds}s"
     
-    # Update uptime in stats
     bot_stats['uptime'] = uptime_str
     
+    # Refresh bot info periodically
+    token = session.get('discord_token')
+    if token:
+        threading.Thread(target=get_bot_info_with_token, args=(token,), daemon=True).start()
+    
     return render_template('dashboard.html', stats=bot_stats)
+
+@app.route('/logout')
+def logout():
+    session.clear()
+    flash('Successfully logged out.', 'info')
+    return redirect(url_for('login'))
 
 @app.route('/health')
 def health():

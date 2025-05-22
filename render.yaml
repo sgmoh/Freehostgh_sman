@@ -3,7 +3,7 @@ services:
     name: discord-bot-dashboard
     env: python
     buildCommand: pip install -r requirements.txt
-    startCommand: python secure_main.py
+    startCommand: python app.py
     plan: free
     envVars:
       - key: PYTHON_VERSION
