@@ -129,6 +129,42 @@ def health():
     """Health check endpoint for Render"""
     return {'status': 'healthy', 'uptime': bot_stats['uptime']}, 200
 
+def run_discord_bot():
+    """Run the Discord bot in a separate thread"""
+    import subprocess
+    import sys
+    import threading
+    import time
+    
+    def start_bot():
+        try:
+            # Start the Discord bot process
+            print("🤖 Starting Discord bot...")
+            bot_process = subprocess.Popen([sys.executable, 'bot.py'], 
+                                         stdout=subprocess.PIPE, 
+                                         stderr=subprocess.PIPE)
+            print("🎉 Discord bot started successfully!")
+            bot_process.wait()  # Keep it running
+        except Exception as e:
+            print(f"❌ Failed to start Discord bot: {e}")
+    
+    # Start bot in background thread
+    bot_thread = threading.Thread(target=start_bot, daemon=True)
+    bot_thread.start()
+    return bot_thread
+
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5000))
+    print(f"🌐 Dashboard starting on port {port}")
+    
+    # Start Discord bot in background
+    print("🚀 Starting combined Discord bot + Dashboard service...")
+    run_discord_bot()
+    
+    # Small delay to let bot start
+    import time
+    time.sleep(2)
+    
+    # Start Flask dashboard
+    print("📊 Dashboard ready!")
     app.run(host='0.0.0.0', port=port, debug=False)

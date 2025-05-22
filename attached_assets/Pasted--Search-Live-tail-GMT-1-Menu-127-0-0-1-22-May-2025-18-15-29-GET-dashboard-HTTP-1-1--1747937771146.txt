@@ -1,0 +1,438 @@
+
+Search
+
+Live tail
+GMT+1
+
+Menu
+127.0.0.1 - - [22/May/2025 18:15:29] "GET /dashboard HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 18:14:57] "GET /dashboard HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 18:14:25] "GET /dashboard HTTP/1.1" 200 -
+     ==> Docs on specifying a port: https://render.com/docs/web-services#port-binding
+     ==> Detected service running on port 10000
+127.0.0.1 - - [22/May/2025 18:13:54] "GET /dashboard HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 18:13:23] "GET /dashboard HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 18:12:51] "GET /dashboard HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 18:12:19] "GET /dashboard HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 18:12:07] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 18:12:06] "GET / HTTP/1.1" 302 -
+127.0.0.1 - - [22/May/2025 18:11:47] "GET /dashboard HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 18:11:15] "GET /dashboard HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 18:11:14] "POST /login HTTP/1.1" 302 -
+127.0.0.1 - - [22/May/2025 18:10:20] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 18:09:58] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 18:09:57] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 18:09:24] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 18:09:18] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 18:09:18] "GET / HTTP/1.1" 302 -
+     ==> Your service is live 🎉
+127.0.0.1 - - [22/May/2025 18:09:09] "HEAD / HTTP/1.1" 302 -
+Press CTRL+C to quit
+ * Running on http://10.214.65.130:10000
+ * Running on http://127.0.0.1:10000
+ * Running on all addresses (0.0.0.0)
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Debug mode: off
+ * Serving Flask app 'secure_main'
+🌐 Visit the website to enter your Discord token securely!
+🔐 Secure Discord Dashboard starting on port 10000
+==> Running 'python secure_main.py'
+127.0.0.1 - - [22/May/2025 18:09:03] "GET / HTTP/1.1" 200 -
+     ==> Deploying...
+127.0.0.1 - - [22/May/2025 18:08:37] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 18:08:36] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 18:08:16] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 18:07:45] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 18:07:14] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 18:07:01] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 18:07:01] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 18:06:49] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 18:06:47] "GET /login HTTP/1.1" 404 -
+127.0.0.1 - - [22/May/2025 18:06:46] "GET /login HTTP/1.1" 404 -
+127.0.0.1 - - [22/May/2025 18:06:42] "GET /login HTTP/1.1" 404 -
+127.0.0.1 - - [22/May/2025 18:06:42] "GET /login HTTP/1.1" 404 -
+127.0.0.1 - - [22/May/2025 18:06:40] "GET /login HTTP/1.1" 404 -
+127.0.0.1 - - [22/May/2025 18:06:38] "GET / HTTP/1.1" 200 -
+     ==> Your service is live 🎉
+127.0.0.1 - - [22/May/2025 18:06:29] "HEAD / HTTP/1.1" 200 -
+Press CTRL+C to quit
+ * Running on http://10.214.54.106:10000
+ * Running on http://127.0.0.1:10000
+ * Running on all addresses (0.0.0.0)
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Debug mode: off
+ * Serving Flask app 'app'
+==> Running 'python app.py'
+     ==> Deploying...
+127.0.0.1 - - [22/May/2025 18:06:03] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 18:06:03] "GET / HTTP/1.1" 302 -
+127.0.0.1 - - [22/May/2025 18:05:50] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 18:05:20] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 18:05:20] "GET / HTTP/1.1" 302 -
+Press CTRL+C to quit
+ * Running on http://10.214.200.137:10000
+ * Running on http://127.0.0.1:10000
+ * Running on all addresses (0.0.0.0)
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Debug mode: off
+ * Serving Flask app 'secure_main'
+🌐 Visit the website to enter your Discord token securely!
+🔐 Secure Discord Dashboard starting on port 10000
+==> Running 'python secure_main.py'
+     ==> Deploying...
+127.0.0.1 - - [22/May/2025 18:04:49] "GET / HTTP/1.1" 200 -
+python: can't open file '/opt/render/project/src/secure_main.py': [Errno 2] No such file or directory
+==> Running 'python secure_main.py'
+127.0.0.1 - - [22/May/2025 18:04:21] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 18:04:18] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 18:03:50] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 18:03:43] "GET / HTTP/1.1" 200 -
+python: can't open file '/opt/render/project/src/secure_main.py': [Errno 2] No such file or directory
+==> Running 'python secure_main.py'
+127.0.0.1 - - [22/May/2025 18:03:11] "GET / HTTP/1.1" 200 -
+python: can't open file '/opt/render/project/src/secure_main.py': [Errno 2] No such file or directory
+==> Running 'python secure_main.py'
+python: can't open file '/opt/render/project/src/secure_main.py': [Errno 2] No such file or directory
+==> Running 'python secure_main.py'
+python: can't open file '/opt/render/project/src/secure_main.py': [Errno 2] No such file or directory
+==> Running 'python secure_main.py'
+127.0.0.1 - - [22/May/2025 18:02:40] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 18:02:38] "GET / HTTP/1.1" 200 -
+     ==> Deploying...
+127.0.0.1 - - [22/May/2025 17:58:19] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:58:11] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:57:40] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:57:09] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:56:38] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:56:07] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:55:36] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:55:32] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:55:05] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:55:00] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:54:34] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:54:28] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:54:03] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:53:57] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:53:32] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:53:26] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:53:01] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:52:55] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:52:30] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:52:24] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:51:59] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:51:52] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:51:28] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:51:20] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:50:57] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:50:49] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:50:25] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:50:17] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:49:55] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:49:45] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:49:23] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:49:14] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:48:52] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:48:43] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:48:21] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:48:12] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:47:50] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:47:41] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:47:18] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:47:10] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:46:44] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:46:38] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:46:12] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:46:04] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:45:41] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:45:33] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:45:09] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:45:01] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:44:37] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:44:30] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:44:05] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:43:58] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:43:33] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:43:26] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:43:01] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:42:54] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:42:30] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:42:23] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:41:59] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:41:52] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:41:28] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:41:20] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:40:57] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:40:49] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:40:26] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:40:18] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:39:55] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:39:46] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:39:24] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:39:15] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:38:53] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:38:43] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:38:22] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:38:12] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:37:51] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:37:40] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:37:20] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:37:08] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:36:49] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:36:36] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:36:16] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:36:03] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:35:45] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:35:32] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:35:14] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:35:01] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:34:43] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:34:29] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:34:11] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:33:57] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:33:39] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:33:26] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:33:08] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:32:54] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:32:36] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:32:23] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:32:05] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:31:51] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:31:33] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:31:18] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:31:02] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:30:47] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:30:31] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:30:15] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:30:00] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:29:44] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:29:29] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:29:12] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:28:58] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:28:40] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:28:27] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:28:09] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:27:56] "GET / HTTP/1.1" 200 -
+     ==> Docs on specifying a port: https://render.com/docs/web-services#port-binding
+     ==> Detected service running on port 10000
+127.0.0.1 - - [22/May/2025 17:27:37] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:27:25] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:27:08] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [22/May/2025 17:27:05] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:26:59] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:26:54] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:24:59] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:24:28] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:23:58] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:23:27] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2025 17:22:57] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [22/May/2025 17:22:56] "GET / HTTP/1.1" 200 -
+2025-05-22 17:22:48,325 | INFO | __main__ | 🌟 Bot is optimized and ready for action!
+2025-05-22 17:22:48,324 | INFO | __main__ | ⏱️ Commands loaded in 0.32s | Total startup: 6.09s
+2025-05-22 17:22:48,324 | INFO | __main__ | 🏁 Bot fully ready! Loaded 12 modules, 7 failed
+2025-05-22 17:22:48,324 | ERROR | __main__ | ❌ Failed to load ./commands/islamic/islamic_commands.py: CommandAlreadyRegistered: Command 'dua' already registered.
+2025-05-22 17:22:48,306 | ERROR | __main__ | ❌ Failed to load ./commands/Security/antispam.py: CommandAlreadyRegistered: Command 'antispam' already registered.
+2025-05-22 17:22:48,303 | ERROR | __main__ | ❌ Failed to load ./commands/Security/antinuke.py: CommandAlreadyRegistered: Command 'antinuke' already registered.
+2025-05-22 17:22:48,301 | ERROR | __main__ | ❌ Failed to load ./commands/Security/automod.py: CommandAlreadyRegistered: Command 'automod' already registered.
+2025-05-22 17:22:48,297 | INFO | __main__ | ✅ Loaded commands.utility.usericon in 0.006s
+2025-05-22 17:22:48,291 | INFO | __main__ | ✅ Loaded commands.logs.logging in 0.164s
+2025-05-22 17:22:48,127 | INFO | __main__ | ✅ Loaded commands.fun.leaderboard in 0.002s
+2025-05-22 17:22:48,125 | ERROR | __main__ | ❌ Failed to load ./commands/fun/vcactivness.py: CommandAlreadyRegistered: Command 'vcactive' already registered.
+2025-05-22 17:22:48,123 | ERROR | __main__ | ❌ Failed to load ./commands/fun/level.py: CommandAlreadyRegistered: Command 'afk' already registered.
+2025-05-22 17:22:48,069 | ERROR | __main__ | ❌ Failed to load ./commands/fun/invite.py: CommandAlreadyRegistered: Command 'inv' already registered.
+2025-05-22 17:22:48,064 | INFO | __main__ | ✅ Loaded commands.moderation.purge in 0.001s
+2025-05-22 17:22:48,063 | INFO | __main__ | ✅ Loaded commands.moderation.reset in 0.001s
+2025-05-22 17:22:48,062 | INFO | __main__ | ✅ Loaded commands.moderation.warn in 0.001s
+2025-05-22 17:22:48,061 | INFO | __main__ | ✅ Loaded commands.moderation.role in 0.001s
+2025-05-22 17:22:48,060 | INFO | __main__ | ✅ Loaded commands.moderation.lock in 0.001s
+2025-05-22 17:22:48,058 | INFO | __main__ | ✅ Loaded commands.moderation.slowmode in 0.001s
+2025-05-22 17:22:48,057 | INFO | __main__ | ✅ Loaded commands.moderation.removerole in 0.001s
+2025-05-22 17:22:48,056 | INFO | __main__ | ✅ Loaded commands.moderation.timeout in 0.001s
+2025-05-22 17:22:48,055 | INFO | __main__ | ✅ Loaded commands.moderation.untimeout in 0.051s
+2025-05-22 17:22:48,003 | INFO | __main__ | 🔄 Loading command modules...
+2025-05-22 17:22:48,003 | INFO | __main__ | ✅ Database initialized in 2.88s
+2025-05-22 17:22:45,128 | INFO | __main__ | 🔄 Initializing database connection...
+2025-05-22 17:22:45,128 | INFO | __main__ | 📊 Bot ID: 1373013347590602944 | Servers: 1 | Users: 6
+2025-05-22 17:22:45,127 | INFO | __main__ | 🎉 .gg/gazaguild has connected to Discord!
+2025-05-22 17:22:43,101 | INFO | discord.gateway | Shard ID None has connected to Gateway (Session ID: 3bb8db9e5cbf3d14d10378713ee8cc39).
+[2025-05-22 17:22:43] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: 3bb8db9e5cbf3d14d10378713ee8cc39).
+2025-05-22 17:22:42,323 | INFO | discord.client | logging in using static token
+[2025-05-22 17:22:42] [INFO    ] discord.client: logging in using static token
+2025-05-22 17:22:42,234 | WARNING | discord.client | PyNaCl is not installed, voice will NOT be supported
+2025-05-22 17:22:42,234 | INFO | __main__ | 🚀 Bot startup initiated at 2025-05-22 17:22:42
+127.0.0.1 - - [22/May/2025 17:22:37] "GET / HTTP/1.1" 200 -
+     ==> Your service is live 🎉
+127.0.0.1 - - [22/May/2025 17:22:36] "HEAD / HTTP/1.1" 200 -
+Press CTRL+C to quit
+ * Running on http://10.214.197.129:10000
+ * Running on http://127.0.0.1:10000
+ * Running on all addresses (0.0.0.0)
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Debug mode: off
+ * Serving Flask app 'main'
+🌐 Dashboard starting on port 10000
+🤖 Starting Discord bot...
+🚀 Starting combined Discord Bot + Dashboard service...
+==> Running 'python main.py'
+     ==> Deploying...
+     ==> Docs on specifying a port: https://render.com/docs/web-services#port-binding
+     ==> Port scan timeout reached, no open ports detected. Bind your service to at least one port. If you don't need to receive traffic on any port, create a background worker instead.
+     ==> Docs on specifying a port: https://render.com/docs/web-services#port-binding
+     ==> No open ports detected, continuing to scan...
+     ==> Docs on specifying a port: https://render.com/docs/web-services#port-binding
+     ==> No open ports detected, continuing to scan...
+     ==> Docs on specifying a port: https://render.com/docs/web-services#port-binding
+     ==> No open ports detected, continuing to scan...
+     ==> Docs on specifying a port: https://render.com/docs/web-services#port-binding
+     ==> No open ports detected, continuing to scan...
+     ==> Docs on specifying a port: https://render.com/docs/web-services#port-binding
+     ==> No open ports detected, continuing to scan...
+2025-05-22 17:16:51,112 | INFO | __main__ | 🌟 Bot is optimized and ready for action!
+2025-05-22 17:16:51,112 | INFO | __main__ | ⏱️ Commands loaded in 0.36s | Total startup: 5.77s
+2025-05-22 17:16:51,112 | INFO | __main__ | 🏁 Bot fully ready! Loaded 12 modules, 7 failed
+2025-05-22 17:16:51,112 | ERROR | __main__ | ❌ Failed to load ./commands/islamic/islamic_commands.py: CommandAlreadyRegistered: Command 'dua' already registered.
+2025-05-22 17:16:51,105 | INFO | __main__ | ✅ Loaded commands.logs.logging in 0.154s
+2025-05-22 17:16:50,951 | INFO | __main__ | ✅ Loaded commands.moderation.timeout in 0.001s
+2025-05-22 17:16:50,949 | INFO | __main__ | ✅ Loaded commands.moderation.purge in 0.001s
+2025-05-22 17:16:50,949 | INFO | __main__ | ✅ Loaded commands.moderation.role in 0.001s
+2025-05-22 17:16:50,947 | INFO | __main__ | ✅ Loaded commands.moderation.untimeout in 0.001s
+2025-05-22 17:16:50,946 | INFO | __main__ | ✅ Loaded commands.moderation.removerole in 0.001s
+2025-05-22 17:16:50,945 | INFO | __main__ | ✅ Loaded commands.moderation.lock in 0.003s
+2025-05-22 17:16:50,860 | INFO | __main__ | ✅ Loaded commands.moderation.slowmode in 0.001s
+2025-05-22 17:16:50,859 | INFO | __main__ | ✅ Loaded commands.moderation.warn in 0.001s
+2025-05-22 17:16:50,857 | INFO | __main__ | ✅ Loaded commands.moderation.reset in 0.002s
+2025-05-22 17:16:50,854 | ERROR | __main__ | ❌ Failed to load ./commands/Security/antispam.py: CommandAlreadyRegistered: Command 'antispam' already registered.
+2025-05-22 17:16:50,852 | ERROR | __main__ | ❌ Failed to load ./commands/Security/antinuke.py: CommandAlreadyRegistered: Command 'antinuke' already registered.
+2025-05-22 17:16:50,850 | ERROR | __main__ | ❌ Failed to load ./commands/Security/automod.py: CommandAlreadyRegistered: Command 'automod' already registered.
+2025-05-22 17:16:50,846 | ERROR | __main__ | ❌ Failed to load ./commands/fun/vcactivness.py: CommandAlreadyRegistered: Command 'vcactive' already registered.
+2025-05-22 17:16:50,843 | INFO | __main__ | ✅ Loaded commands.fun.leaderboard in 0.070s
+2025-05-22 17:16:50,773 | ERROR | __main__ | ❌ Failed to load ./commands/fun/invite.py: CommandAlreadyRegistered: Command 'inv' already registered.
+2025-05-22 17:16:50,769 | ERROR | __main__ | ❌ Failed to load ./commands/fun/level.py: CommandAlreadyRegistered: Command 'afk' already registered.
+2025-05-22 17:16:50,761 | INFO | __main__ | ✅ Loaded commands.utility.usericon in 0.007s
+2025-05-22 17:16:50,753 | INFO | __main__ | 🔄 Loading command modules...
+2025-05-22 17:16:50,753 | INFO | __main__ | ✅ Database initialized in 2.58s
+2025-05-22 17:16:48,172 | INFO | __main__ | 🔄 Initializing database connection...
+2025-05-22 17:16:48,172 | INFO | __main__ | 📊 Bot ID: 1373013347590602944 | Servers: 1 | Users: 6
+2025-05-22 17:16:48,171 | INFO | __main__ | 🎉 .gg/gazaguild has connected to Discord!
+2025-05-22 17:16:46,167 | INFO | discord.gateway | Shard ID None has connected to Gateway (Session ID: 407bdefed3b228fad8b68539d731534c).
+[2025-05-22 17:16:46] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: 407bdefed3b228fad8b68539d731534c).
+2025-05-22 17:16:45,347 | INFO | discord.client | logging in using static token
+[2025-05-22 17:16:45] [INFO    ] discord.client: logging in using static token
+2025-05-22 17:16:45,345 | WARNING | discord.client | PyNaCl is not installed, voice will NOT be supported
+2025-05-22 17:16:45,343 | INFO | __main__ | 🚀 Bot startup initiated at 2025-05-22 17:16:45
+==> Running 'python bot.py'
+     ==> Deploying...
+2025-05-22 17:15:06,346 | INFO | __main__ | 🌟 Bot is optimized and ready for action!
+2025-05-22 17:15:06,346 | INFO | __main__ | ⏱️ Commands loaded in 0.35s | Total startup: 5.56s
+2025-05-22 17:15:06,346 | INFO | __main__ | 🏁 Bot fully ready! Loaded 12 modules, 7 failed
+2025-05-22 17:15:06,346 | ERROR | __main__ | ❌ Failed to load ./commands/islamic/islamic_commands.py: CommandAlreadyRegistered: Command 'dua' already registered.
+2025-05-22 17:15:06,341 | INFO | __main__ | ✅ Loaded commands.logs.logging in 0.249s
+2025-05-22 17:15:06,092 | INFO | __main__ | ✅ Loaded commands.moderation.timeout in 0.001s
+2025-05-22 17:15:06,091 | INFO | __main__ | ✅ Loaded commands.moderation.purge in 0.001s
+2025-05-22 17:15:06,090 | INFO | __main__ | ✅ Loaded commands.moderation.role in 0.001s
+2025-05-22 17:15:06,090 | INFO | __main__ | ✅ Loaded commands.moderation.untimeout in 0.001s
+2025-05-22 17:15:06,089 | INFO | __main__ | ✅ Loaded commands.moderation.removerole in 0.001s
+2025-05-22 17:15:06,088 | INFO | __main__ | ✅ Loaded commands.moderation.lock in 0.001s
+2025-05-22 17:15:06,087 | INFO | __main__ | ✅ Loaded commands.moderation.slowmode in 0.001s
+2025-05-22 17:15:06,086 | INFO | __main__ | ✅ Loaded commands.moderation.warn in 0.001s
+2025-05-22 17:15:06,085 | INFO | __main__ | ✅ Loaded commands.moderation.reset in 0.002s
+2025-05-22 17:15:06,083 | ERROR | __main__ | ❌ Failed to load ./commands/Security/antispam.py: CommandAlreadyRegistered: Command 'antispam' already registered.
+2025-05-22 17:15:06,081 | ERROR | __main__ | ❌ Failed to load ./commands/Security/antinuke.py: CommandAlreadyRegistered: Command 'antinuke' already registered.
+2025-05-22 17:15:06,079 | ERROR | __main__ | ❌ Failed to load ./commands/Security/automod.py: CommandAlreadyRegistered: Command 'automod' already registered.
+2025-05-22 17:15:06,013 | ERROR | __main__ | ❌ Failed to load ./commands/fun/vcactivness.py: CommandAlreadyRegistered: Command 'vcactive' already registered.
+2025-05-22 17:15:06,011 | INFO | __main__ | ✅ Loaded commands.fun.leaderboard in 0.002s
+2025-05-22 17:15:06,009 | ERROR | __main__ | ❌ Failed to load ./commands/fun/invite.py: CommandAlreadyRegistered: Command 'inv' already registered.
+2025-05-22 17:15:06,006 | ERROR | __main__ | ❌ Failed to load ./commands/fun/level.py: CommandAlreadyRegistered: Command 'afk' already registered.
+2025-05-22 17:15:06,001 | INFO | __main__ | ✅ Loaded commands.utility.usericon in 0.006s
+2025-05-22 17:15:05,995 | INFO | __main__ | 🔄 Loading command modules...
+2025-05-22 17:15:05,995 | INFO | __main__ | ✅ Database initialized in 2.35s
+2025-05-22 17:15:03,642 | INFO | __main__ | 🔄 Initializing database connection...
+2025-05-22 17:15:03,642 | INFO | __main__ | 📊 Bot ID: 1373013347590602944 | Servers: 1 | Users: 6
+2025-05-22 17:15:03,642 | INFO | __main__ | 🎉 .gg/gazaguild has connected to Discord!
+2025-05-22 17:15:01,637 | INFO | discord.gateway | Shard ID None has connected to Gateway (Session ID: 3c373f159e1c707ded7789913832ca93).
+[2025-05-22 17:15:01] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: 3c373f159e1c707ded7789913832ca93).
+     ==> Deploying...
+2025-05-22 17:13:59,639 | INFO | __main__ | 🌟 Bot is optimized and ready for action!
+2025-05-22 17:13:59,639 | INFO | __main__ | ⏱️ Commands loaded in 0.34s | Total startup: 6.06s
+2025-05-22 17:13:59,639 | INFO | __main__ | 🏁 Bot fully ready! Loaded 12 modules, 7 failed
+2025-05-22 17:13:59,639 | ERROR | __main__ | ❌ Failed to load ./commands/islamic/islamic_commands.py: CommandAlreadyRegistered: Command 'dua' already registered.
+2025-05-22 17:13:59,631 | INFO | __main__ | ✅ Loaded commands.logs.logging in 0.153s
+2025-05-22 17:13:59,478 | INFO | __main__ | ✅ Loaded commands.moderation.timeout in 0.085s
+2025-05-22 17:13:59,392 | INFO | __main__ | ✅ Loaded commands.moderation.purge in 0.001s
+2025-05-22 17:13:59,391 | INFO | __main__ | ✅ Loaded commands.moderation.role in 0.001s
+2025-05-22 17:13:59,390 | INFO | __main__ | ✅ Loaded commands.moderation.untimeout in 0.001s
+2025-05-22 17:13:59,389 | INFO | __main__ | ✅ Loaded commands.moderation.removerole in 0.001s
+2025-05-22 17:13:59,388 | INFO | __main__ | ✅ Loaded commands.moderation.lock in 0.001s
+2025-05-22 17:13:59,387 | INFO | __main__ | ✅ Loaded commands.moderation.slowmode in 0.001s
+2025-05-22 17:13:59,386 | INFO | __main__ | ✅ Loaded commands.moderation.warn in 0.001s
+2025-05-22 17:13:59,384 | INFO | __main__ | ✅ Loaded commands.moderation.reset in 0.003s
+2025-05-22 17:13:59,381 | ERROR | __main__ | ❌ Failed to load ./commands/Security/antispam.py: CommandAlreadyRegistered: Command 'antispam' already registered.
+2025-05-22 17:13:59,379 | ERROR | __main__ | ❌ Failed to load ./commands/Security/antinuke.py: CommandAlreadyRegistered: Command 'antinuke' already registered.
+2025-05-22 17:13:59,323 | ERROR | __main__ | ❌ Failed to load ./commands/Security/automod.py: CommandAlreadyRegistered: Command 'automod' already registered.
+2025-05-22 17:13:59,319 | ERROR | __main__ | ❌ Failed to load ./commands/fun/vcactivness.py: CommandAlreadyRegistered: Command 'vcactive' already registered.
+2025-05-22 17:13:59,318 | INFO | __main__ | ✅ Loaded commands.fun.leaderboard in 0.002s
+2025-05-22 17:13:59,316 | ERROR | __main__ | ❌ Failed to load ./commands/fun/invite.py: CommandAlreadyRegistered: Command 'inv' already registered.
+2025-05-22 17:13:59,312 | ERROR | __main__ | ❌ Failed to load ./commands/fun/level.py: CommandAlreadyRegistered: Command 'afk' already registered.
+2025-05-22 17:13:59,307 | INFO | __main__ | ✅ Loaded commands.utility.usericon in 0.009s
+2025-05-22 17:13:59,297 | INFO | __main__ | 🔄 Loading command modules...
+2025-05-22 17:13:59,297 | INFO | __main__ | ✅ Database initialized in 2.78s
+2025-05-22 17:13:56,515 | INFO | __main__ | 🔄 Initializing database connection...
+2025-05-22 17:13:56,514 | INFO | __main__ | 📊 Bot ID: 1373013347590602944 | Servers: 1 | Users: 6
+2025-05-22 17:13:56,514 | INFO | __main__ | 🎉 .gg/gazaguild has connected to Discord!
+2025-05-22 17:13:54,461 | INFO | discord.gateway | Shard ID None has connected to Gateway (Session ID: 97b091699039a360488041fe3ec83bbe).
+[2025-05-22 17:13:54] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: 97b091699039a360488041fe3ec83bbe).
+2025-05-22 17:13:53,581 | INFO | discord.client | logging in using static token
+[2025-05-22 17:13:53] [INFO    ] discord.client: logging in using static token
+2025-05-22 17:13:53,579 | WARNING | discord.client | PyNaCl is not installed, voice will NOT be supported
+2025-05-22 17:13:53,579 | INFO | __main__ | 🚀 Bot startup initiated at 2025-05-22 17:13:53
+==> Running 'python bot.py'
+     ==> Deploying...
+     ==> Docs on specifying a port: https://render.com/docs/web-services#port-binding
+     ==> Port scan timeout reached, no open ports detected. Bind your service to at least one port. If you don't need to receive traffic on any port, create a background worker instead.
+     ==> Docs on specifying a port: https://render.com/docs/web-services#port-binding
+     ==> No open ports detected, continuing to scan...
+     ==> Docs on specifying a port: https://render.com/docs/web-services#port-binding
+     ==> No open ports detected, continuing to scan...
+     ==> Docs on specifying a port: https://render.com/docs/web-services#port-binding
+     ==> No open ports detected, continuing to scan...
+2025-05-22 17:06:52,277 | ERROR | __main__ | ❌ Exception in Unknown: CommandNotFound: Command "invite" is not found (handled in 0.000s)
+2025-05-22 17:06:50,350 | ERROR | __main__ | ❌ Exception in Unknown: CommandNotFound: Command "invites" is not found (handled in 0.000s)
+2025-05-22 17:06:41,853 | ERROR | __main__ | ❌ Exception in Unknown: CommandNotFound: Command "leve" is not found (handled in 0.000s)
+     ==> Docs on specifying a port: https://render.com/docs/web-services#port-binding
+     ==> No open ports detected, continuing to scan...
+     ==> Docs on specifying a port: https://render.com/docs/web-services#port-binding
+     ==> No open ports detected, continuing to scan...
+2025-05-22 17:04:16,646 | INFO | __main__ | 🌟 Bot is optimized and ready for action!
+2025-05-22 17:04:16,646 | INFO | __main__ | ⏱️ Commands loaded in 0.32s | Total startup: 5.67s
+2025-05-22 17:04:16,646 | INFO | __main__ | 🏁 Bot fully ready! Loaded 12 modules, 7 failed
+2025-05-22 17:04:16,646 | ERROR | __main__ | ❌ Failed to load ./commands/islamic/islamic_commands.py: CommandAlreadyRegistered: Command 'dua' already registered.
+2025-05-22 17:04:16,639 | INFO | __main__ | ✅ Loaded commands.logs.logging in 0.174s
+2025-05-22 17:04:16,465 | INFO | __main__ | ✅ Loaded commands.moderation.timeout in 0.082s
+2025-05-22 17:04:16,383 | INFO | __main__ | ✅ Loaded commands.moderation.purge in 0.001s
+2025-05-22 17:04:16,382 | INFO | __main__ | ✅ Loaded commands.moderation.role in 0.001s
+2025-05-22 17:04:16,381 | INFO | __main__ | ✅ Loaded commands.moderation.untimeout in 0.001s
+2025-05-22 17:04:16,380 | INFO | __main__ | ✅ Loaded commands.moderation.removerole in 0.001s
+2025-05-22 17:04:16,379 | INFO | __main__ | ✅ Loaded commands.moderation.lock in 0.001s
+2025-05-22 17:04:16,378 | INFO | __main__ | ✅ Loaded commands.moderation.slowmode in 0.001s
+2025-05-22 17:04:16,377 | INFO | __main__ | ✅ Loaded commands.moderation.warn in 0.001s
+2025-05-22 17:04:16,376 | INFO | __main__ | ✅ Loaded commands.moderation.reset in 0.002s
+2025-05-22 17:04:16,373 | ERROR | __main__ | ❌ Failed to load ./commands/Security/antispam.py: CommandAlreadyRegistered: Command 'antispam' already registered.
+2025-05-22 17:04:16,372 | ERROR | __main__ | ❌ Failed to load ./commands/Security/antinuke.py: CommandAlreadyRegistered: Command 'antinuke' already registered.
+2025-05-22 17:04:16,370 | ERROR | __main__ | ❌ Failed to load ./commands/Security/automod.py: CommandAlreadyRegistered: Command 'automod' already registered.
+2025-05-22 17:04:16,366 | ERROR | __main__ | ❌ Failed to load ./commands/fun/vcactivness.py: CommandAlreadyRegistered: Command 'vcactive' already registered.
+2025-05-22 17:04:16,345 | INFO | __main__ | ✅ Loaded commands.fun.leaderboard in 0.002s
+2025-05-22 17:04:16,343 | ERROR | __main__ | ❌ Failed to load ./commands/fun/invite.py: CommandAlreadyRegistered: Command 'inv' already registered.
+2025-05-22 17:04:16,339 | ERROR | __main__ | ❌ Failed to load ./commands/fun/level.py: CommandAlreadyRegistered: Command 'afk' already registered.
+2025-05-22 17:04:16,334 | INFO | __main__ | ✅ Loaded commands.utility.usericon in 0.006s
+2025-05-22 17:04:16,328 | INFO | __main__ | 🔄 Loading command modules...
+2025-05-22 17:04:16,328 | INFO | __main__ | ✅ Database initialized in 2.48s
+2025-05-22 17:04:13,845 | INFO | __main__ | 🔄 Initializing database connection...
+2025-05-22 17:04:13,845 | INFO | __main__ | 📊 Bot ID: 1373013347590602944 | Servers: 1 | Users: 6
+2025-05-22 17:04:13,845 | INFO | __main__ | 🎉 .gg/gazaguild has connected to Discord!
+2025-05-22 17:04:11,841 | INFO | discord.gateway | Shard ID None has connected to Gateway (Session ID: 7922d0a3bf2811c59e33cb086536ea0f).
+[2025-05-22 17:04:11] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: 7922d0a3bf2811c59e33cb086536ea0f).
+2025-05-22 17:04:10,977 | INFO | discord.client | logging in using static token
+[2025-05-22 17:04:10] [INFO    ] discord.client: logging in using static token
+2025-05-22 17:04:10,975 | WARNING | discord.client | PyNaCl is not installed, voice will NOT be supported
+2025-05-22 17:04:10,973 | INFO | __main__ | 🚀 Bot startup initiated at 2025-05-22 17:04:10
+==> Running 'python bot.py'
+     ==> Deploying...
