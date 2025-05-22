@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord Bot Dashboard - Login</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #0c0c0c 0%, #1a1a1a 100%);
+            color: #ffffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        /* Animated background particles */
+        .particles {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: 0;
+        }
+
+        .particle {
+            position: absolute;
+            width: 2px;
+            height: 2px;
+            background: #00ff88;
+            border-radius: 50%;
+            animation: float 6s infinite linear;
+            opacity: 0.7;
+        }
+
+        @keyframes float {
+            0% {
+                transform: translateY(100vh) translateX(0);
+                opacity: 0;
+            }
+            10% {
+                opacity: 0.7;
+            }
+            90% {
+                opacity: 0.7;
+            }
+            100% {
+                transform: translateY(-100vh) translateX(100px);
+                opacity: 0;
+            }
+        }
+
+        .login-container {
+            background: rgba(20, 20, 20, 0.95);
+            border: 2px solid #00ff88;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 40px rgba(0, 255, 136, 0.3);
+            backdrop-filter: blur(10px);
+            text-align: center;
+            max-width: 500px;
+            width: 90%;
+            position: relative;
+            z-index: 1;
+            animation: glow 2s ease-in-out infinite alternate;
+        }
+
+        @keyframes glow {
+            from {
+                box-shadow: 0 20px 40px rgba(0, 255, 136, 0.3);
+            }
+            to {
+                box-shadow: 0 20px 40px rgba(0, 255, 136, 0.6);
+            }
+        }
+
+        .login-title {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            background: linear-gradient(45deg, #00ff88, #00ccff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-weight: bold;
+        }
+
+        .login-subtitle {
+            color: #cccccc;
+            margin-bottom: 30px;
+            font-size: 1.1em;
+        }
+
+        .form-group {
+            margin-bottom: 25px;
+            text-align: left;
+        }
+
+        .form-label {
+            display: block;
+            color: #00ff88;
+            font-weight: bold;
+            margin-bottom: 8px;
+            font-size: 1.1em;
+        }
+
+        .form-input {
+            width: 100%;
+            padding: 15px;
+            background: rgba(0, 0, 0, 0.6);
+            border: 2px solid #333;
+            border-radius: 10px;
+            color: #ffffff;
+            font-size: 1em;
+            transition: border-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .form-input:focus {
+            outline: none;
+            border-color: #00ff88;
+            box-shadow: 0 0 10px rgba(0, 255, 136, 0.3);
+        }
+
+        .form-input::placeholder {
+            color: #666;
+        }
+
+        .login-btn {
+            width: 100%;
+            padding: 15px;
+            background: linear-gradient(45deg, #00ff88, #00ccff);
+            border: none;
+            border-radius: 10px;
+            color: #000;
+            font-size: 1.2em;
+            font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .login-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(0, 255, 136, 0.4);
+        }
+
+        .flash-messages {
+            margin-bottom: 20px;
+        }
+
+        .flash-success {
+            background: rgba(0, 255, 136, 0.2);
+            border: 1px solid #00ff88;
+            color: #00ff88;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .flash-error {
+            background: rgba(255, 0, 68, 0.2);
+            border: 1px solid #ff0044;
+            color: #ff0044;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .flash-info {
+            background: rgba(0, 204, 255, 0.2);
+            border: 1px solid #00ccff;
+            color: #00ccff;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .instructions {
+            background: rgba(0, 0, 0, 0.4);
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 20px;
+            text-align: left;
+        }
+
+        .instructions h3 {
+            color: #00ff88;
+            margin-bottom: 10px;
+        }
+
+        .instructions ol {
+            color: #cccccc;
+            line-height: 1.6;
+        }
+
+        .instructions li {
+            margin-bottom: 8px;
+        }
+
+        .footer {
+            position: absolute;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: #888;
+            font-size: 0.9em;
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .login-title {
+                font-size: 2em;
+            }
+            .login-container {
+                padding: 30px 20px;
+            }
+        }
+    </style>
+    <script>
+        // Create floating particles
+        function createParticles() {
+            const particlesContainer = document.querySelector('.particles');
+            for (let i = 0; i < 50; i++) {
+                const particle = document.createElement('div');
+                particle.className = 'particle';
+                particle.style.left = Math.random() * 100 + '%';
+                particle.style.animationDelay = Math.random() * 6 + 's';
+                particle.style.animationDuration = (Math.random() * 3 + 4) + 's';
+                particlesContainer.appendChild(particle);
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', createParticles);
+    </script>
+</head>
+<body>
+    <div class="particles"></div>
+    
+    <div class="login-container">
+        <h1 class="login-title">🔐 Secure Login</h1>
+        <p class="login-subtitle">Enter your Discord bot token to access the dashboard</p>
+        
+        <div class="flash-messages">
+            {% with messages = get_flashed_messages(with_categories=true) %}
+                {% if messages %}
+                    {% for category, message in messages %}
+                        <div class="flash-{{ category }}">{{ message }}</div>
+                    {% endfor %}
+                {% endif %}
+            {% endwith %}
+        </div>
+        
+        <form method="POST">
+            <div class="form-group">
+                <label for="discord_token" class="form-label">Discord Bot Token:</label>
+                <input 
+                    type="password" 
+                    id="discord_token" 
+                    name="discord_token" 
+                    class="form-input"
+                    placeholder="Enter your Discord bot token..."
+                    required
+                >
+            </div>
+            
+            <button type="submit" class="login-btn">🚀 Connect to Dashboard</button>
+        </form>
+        
+        <div class="instructions">
+            <h3>📋 How to get your Discord bot token:</h3>
+            <ol>
+                <li>Go to <strong>Discord Developer Portal</strong></li>
+                <li>Select your bot application</li>
+                <li>Go to the <strong>"Bot"</strong> section</li>
+                <li>Click <strong>"Reset Token"</strong> or <strong>"Copy"</strong></li>
+                <li>Paste it above and click Connect!</li>
+            </ol>
+        </div>
+    </div>
+    
+    <div class="footer">
+        Owner: gh_sman | Host Type: <span style="color: #00ff88; font-weight: bold;">Paid $5</span>
+    </div>
+</body>
+</html>
