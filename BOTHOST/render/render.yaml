@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: uptimerobot-server
+    env: python
+    plan: free
+    buildCommand: pip install -r BOTHOST/render/uptimerobot/requirements.txt
+    startCommand: python BOTHOST/render/uptimerobot/server.py
+    envVars:
+      - key: PORT
+        value: 8080 
