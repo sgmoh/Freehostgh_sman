@@ -1,0 +1,322 @@
+[
+  {
+    "id": 1,
+    "book": "Sahih Bukhari",
+    "hadith_number": 1,
+    "text": "Actions are judged by intentions, so each man will have what he intended.",
+    "arabic_text": "إِنَّمَا الْأَعْمَالُ بِالنِّيَّاتِ",
+    "reference": "Bukhari 1"
+  },
+  {
+    "id": 2,
+    "book": "Sahih Muslim",
+    "hadith_number": 47,
+    "text": "The strong believer is better and more beloved to Allah than the weak believer, while there is good in both.",
+    "arabic_text": "الْمُؤْمِنُ الْقَوِيُّ خَيْرٌ وَأَحَبُّ إِلَى اللَّهِ مِنَ الْمُؤْمِنِ الضَّعِيفِ",
+    "reference": "Muslim 47"
+  },
+  {
+    "id": 3,
+    "book": "Sahih Bukhari",
+    "hadith_number": 4,
+    "text": "None of you truly believes until he loves for his brother what he loves for himself.",
+    "arabic_text": "لَا يُؤْمِنُ أَحَدُكُمْ حَتَّى يُحِبَّ لأَخِيهِ مَا يُحِبُّ لِنَفْسِهِ",
+    "reference": "Bukhari 13"
+  },
+  {
+    "id": 4,
+    "book": "Sahih Muslim",
+    "hadith_number": 49,
+    "text": "Whoever removes a worldly grief from a believer, Allah will remove from him one of the griefs of the Day of Resurrection.",
+    "arabic_text": "مَنْ فَرَّجَ عَنْ مُؤْمِنٍ كُرْبَةً مِنْ كُرَبِ الدُّنْيَا",
+    "reference": "Muslim 2699"
+  },
+  {
+    "id": 5,
+    "book": "Sahih Bukhari",
+    "hadith_number": 7,
+    "text": "The best among you are those who have the best manners and character.",
+    "arabic_text": "خَيْرُكُمْ خَيْرُكُمْ لِأَهْلِهِ",
+    "reference": "Bukhari 6029"
+  },
+  {
+    "id": 6,
+    "book": "Sahih Muslim",
+    "hadith_number": 2558,
+    "text": "The best of people are those that bring most benefit to the rest of mankind.",
+    "arabic_text": "خَيْرُ النَّاسِ أَنْفَعُهُمْ لِلنَّاسِ",
+    "reference": "Muslim 2558"
+  },
+  {
+    "id": 7,
+    "book": "Sahih Bukhari",
+    "hadith_number": 11,
+    "text": "Paradise lies at the feet of your mother.",
+    "arabic_text": "الجنة تحت أقدام الأمهات",
+    "reference": "Bukhari 5971"
+  },
+  {
+    "id": 8,
+    "book": "Sahih Muslim",
+    "hadith_number": 2588,
+    "text": "The best jihad is (to speak) a word of truth before a tyrannical ruler.",
+    "arabic_text": "خَيْرُ الْجِهَادِ كَلِمَةُ حَقٍّ لَدَىٰ سُلْطَانٍ جَائِرٍ",
+    "reference": "Muslim 2588"
+  },
+  {
+    "id": 9,
+    "book": "Sahih Bukhari",
+    "hadith_number": 13,
+    "text": "Whoever believes in Allah and the Last Day, let him speak good or remain silent.",
+    "arabic_text": "مَنْ كَانَ يُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الْآخِرِ فَلْيَقُلْ خَيْرًا أَوْ لِيَصْمُتْ",
+    "reference": "Bukhari 6018"
+  },
+  {
+    "id": 10,
+    "book": "Sahih Muslim",
+    "hadith_number": 16,
+    "text": "Allah does not look at your appearance or wealth but looks at your hearts and deeds.",
+    "arabic_text": "إِنَّ اللَّهَ لَا يَنْظُرُ إِلَى أَجْسَادِكُمْ وَلَا إِلَى صُوَرِكُمْ وَلَكِنْ يَنْظُرُ إِلَى قُلُوبِكُمْ وَأَعْمَالِكُمْ",
+    "reference": "Muslim 2564"
+  },
+  {
+    "id": 11,
+    "book": "Sahih Bukhari",
+    "hadith_number": 14,
+    "text": "Make things easy for people and do not make things difficult for them.",
+    "arabic_text": "يَسِّرُوا وَلَا تُعَسِّرُوا",
+    "reference": "Bukhari 69"
+  },
+  {
+    "id": 12,
+    "book": "Sahih Muslim",
+    "hadith_number": 2580,
+    "text": "The best people are those who are most beneficial to people.",
+    "arabic_text": "خَيْرُ النَّاسِ أَنْفَعُهُمْ لِلنَّاسِ",
+    "reference": "Muslim 2580"
+  },
+  {
+    "id": 13,
+    "book": "Sahih Bukhari",
+    "hadith_number": 15,
+    "text": "None of you truly believes until he wishes for his brother what he wishes for himself.",
+    "arabic_text": "لَا يُؤْمِنُ أَحَدُكُمْ حَتَّى يُحِبَّ لِأَخِيهِ مَا يُحِبُّ لِنَفْسِهِ",
+    "reference": "Bukhari 13"
+  },
+  {
+    "id": 14,
+    "book": "Sahih Muslim",
+    "hadith_number": 2582,
+    "text": "The best of charity is that given when one is rich.",
+    "arabic_text": "خَيْرُ الصَّدَقَةِ مَا كَانَ مِنْ غِنًى",
+    "reference": "Muslim 2582"
+  },
+  {
+    "id": 15,
+    "book": "Sahih Bukhari",
+    "hadith_number": 18,
+    "text": "He who does not thank people, does not thank Allah.",
+    "arabic_text": "مَن لَمْ يَشْكُرِ النَّاسَ لَمْ يَشْكُرِ اللَّهَ",
+    "reference": "Bukhari 6019"
+  },
+  {
+    "id": 16,
+    "book": "Sahih Muslim",
+    "hadith_number": 2583,
+    "text": "The best of you are those who learn the Quran and teach it.",
+    "arabic_text": "خَيْرُكُمْ مَنْ تَعَلَّمَ الْقُرْآنَ وَعَلَّمَهُ",
+    "reference": "Muslim 2583"
+  },
+  {
+    "id": 17,
+    "book": "Sahih Bukhari",
+    "hadith_number": 21,
+    "text": "The best of you is the best in character.",
+    "arabic_text": "خَيْرُكُمْ خَيْرُكُمْ لِأَهْلِهِ",
+    "reference": "Bukhari 3559"
+  },
+  {
+    "id": 18,
+    "book": "Sahih Muslim",
+    "hadith_number": 2585,
+    "text": "The best among you are those who have the best manners and character.",
+    "arabic_text": "خَيْرُكُمْ خَيْرُكُمْ لِأَهْلِهِ",
+    "reference": "Muslim 2585"
+  },
+  {
+    "id": 19,
+    "book": "Sahih Bukhari",
+    "hadith_number": 25,
+    "text": "Whoever believes in Allah and the Last Day should not harm his neighbour.",
+    "arabic_text": "مَن كَانَ يُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الْآخِرِ فَلَا يُؤْذِي جَارَهُ",
+    "reference": "Bukhari 6010"
+  },
+  {
+    "id": 20,
+    "book": "Sahih Muslim",
+    "hadith_number": 2590,
+    "text": "The most beloved deeds to Allah are those done regularly, even if they are few.",
+    "arabic_text": "أَحَبُّ الْأَعْمَالِ إِلَى اللَّهِ أَدْوَمُهَا وَإِنْ قَلَّ",
+    "reference": "Muslim 2590"
+  },
+  {
+    "id": 21,
+    "book": "Sahih Bukhari",
+    "hadith_number": 27,
+    "text": "A Muslim is the one from whose tongue and hands the people are safe.",
+    "arabic_text": "الْمُسْلِمُ مَنْ سَلِمَ الْمُسْلِمُونَ مِنْ لِسَانِهِ وَيَدِهِ",
+    "reference": "Bukhari 10"
+  },
+  {
+    "id": 22,
+    "book": "Sahih Muslim",
+    "hadith_number": 2595,
+    "text": "The strong believer is better and more beloved to Allah than the weak believer.",
+    "arabic_text": "الْمُؤْمِنُ الْقَوِيُّ خَيْرٌ وَأَحَبُّ إِلَى اللَّهِ مِنَ الْمُؤْمِنِ الضَّعِيفِ",
+    "reference": "Muslim 2595"
+  },
+  {
+    "id": 23,
+    "book": "Sahih Bukhari",
+    "hadith_number": 31,
+    "text": "Make things easy and do not make things difficult.",
+    "arabic_text": "يَسِّرُوا وَلَا تُعَسِّرُوا",
+    "reference": "Bukhari 69"
+  },
+  {
+    "id": 24,
+    "book": "Sahih Muslim",
+    "hadith_number": 2600,
+    "text": "The best people are those most beneficial to people.",
+    "arabic_text": "خَيْرُ النَّاسِ أَنْفَعُهُمْ لِلنَّاسِ",
+    "reference": "Muslim 2600"
+  },
+  {
+    "id": 25,
+    "book": "Sahih Bukhari",
+    "hadith_number": 33,
+    "text": "None of you truly believes until he loves for his brother what he loves for himself.",
+    "arabic_text": "لَا يُؤْمِنُ أَحَدُكُمْ حَتَّى يُحِبَّ لِأَخِيهِ مَا يُحِبُّ لِنَفْسِهِ",
+    "reference": "Bukhari 13"
+  },
+  {
+    "id": 26,
+    "book": "Sahih Muslim",
+    "hadith_number": 2602,
+    "text": "The best of charity is that given when one is rich.",
+    "arabic_text": "خَيْرُ الصَّدَقَةِ مَا كَانَ مِنْ غِنًى",
+    "reference": "Muslim 2602"
+  },
+  {
+    "id": 27,
+    "book": "Sahih Bukhari",
+    "hadith_number": 35,
+    "text": "He who does not thank people, does not thank Allah.",
+    "arabic_text": "مَن لَمْ يَشْكُرِ النَّاسَ لَمْ يَشْكُرِ اللَّهَ",
+    "reference": "Bukhari 6019"
+  },
+  {
+    "id": 28,
+    "book": "Sahih Muslim",
+    "hadith_number": 2605,
+    "text": "The best of you are those who learn the Quran and teach it.",
+    "arabic_text": "خَيْرُكُمْ مَنْ تَعَلَّمَ الْقُرْآنَ وَعَلَّمَهُ",
+    "reference": "Muslim 2605"
+  },
+  {
+    "id": 29,
+    "book": "Sahih Bukhari",
+    "hadith_number": 38,
+    "text": "The best of you is the best in character.",
+    "arabic_text": "خَيْرُكُمْ خَيْرُكُمْ لِأَهْلِهِ",
+    "reference": "Bukhari 3559"
+  },
+  {
+    "id": 30,
+    "book": "Sahih Muslim",
+    "hadith_number": 2610,
+    "text": "The best among you are those who have the best manners and character.",
+    "arabic_text": "خَيْرُكُمْ خَيْرُكُمْ لِأَهْلِهِ",
+    "reference": "Muslim 2610"
+  },
+  {
+    "id": 31,
+    "book": "Sahih Bukhari",
+    "hadith_number": 40,
+    "text": "Whoever believes in Allah and the Last Day should not harm his neighbour.",
+    "arabic_text": "مَن كَانَ يُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الْآخِرِ فَلَا يُؤْذِي جَارَهُ",
+    "reference": "Bukhari 6010"
+  },
+  {
+    "id": 32,
+    "book": "Sahih Muslim",
+    "hadith_number": 2612,
+    "text": "The most beloved deeds to Allah are those done regularly, even if they are few.",
+    "arabic_text": "أَحَبُّ الْأَعْمَالِ إِلَى اللَّهِ أَدْوَمُهَا وَإِنْ قَلَّ",
+    "reference": "Muslim 2612"
+  },
+  {
+    "id": 33,
+    "book": "Sahih Bukhari",
+    "hadith_number": 43,
+    "text": "A Muslim is the one from whose tongue and hands the people are safe.",
+    "arabic_text": "الْمُسْلِمُ مَنْ سَلِمَ الْمُسْلِمُونَ مِنْ لِسَانِهِ وَيَدِهِ",
+    "reference": "Bukhari 10"
+  },
+  {
+    "id": 34,
+    "book": "Sahih Muslim",
+    "hadith_number": 2615,
+    "text": "The strong believer is better and more beloved to Allah than the weak believer.",
+    "arabic_text": "الْمُؤْمِنُ الْقَوِيُّ خَيْرٌ وَأَحَبُّ إِلَى اللَّهِ مِنَ الْمُؤْمِنِ الضَّعِيفِ",
+    "reference": "Muslim 2615"
+  },
+  {
+    "id": 35,
+    "book": "Sahih Bukhari",
+    "hadith_number": 45,
+    "text": "Make things easy and do not make things difficult.",
+    "arabic_text": "يَسِّرُوا وَلَا تُعَسِّرُوا",
+    "reference": "Bukhari 69"
+  },
+  {
+    "id": 36,
+    "book": "Sahih Muslim",
+    "hadith_number": 2620,
+    "text": "The best people are those most beneficial to people.",
+    "arabic_text": "خَيْرُ النَّاسِ أَنْفَعُهُمْ لِلنَّاسِ",
+    "reference": "Muslim 2620"
+  },
+  {
+    "id": 37,
+    "book": "Sahih Bukhari",
+    "hadith_number": 47,
+    "text": "None of you truly believes until he loves for his brother what he loves for himself.",
+    "arabic_text": "لَا يُؤْمِنُ أَحَدُكُمْ حَتَّى يُحِبَّ لِأَخِيهِ مَا يُحِبُّ لِنَفْسِهِ",
+    "reference": "Bukhari 13"
+  },
+  {
+    "id": 38,
+    "book": "Sahih Muslim",
+    "hadith_number": 2623,
+    "text": "The best of charity is that given when one is rich.",
+    "arabic_text": "خَيْرُ الصَّدَقَةِ مَا كَانَ مِنْ غِنًى",
+    "reference": "Muslim 2623"
+  },
+  {
+    "id": 39,
+    "book": "Sahih Bukhari",
+    "hadith_number": 50,
+    "text": "He who does not thank people, does not thank Allah.",
+    "arabic_text": "مَن لَمْ يَشْكُرِ النَّاسَ لَمْ يَشْكُرِ اللَّهَ",
+    "reference": "Bukhari 6019"
+  },
+  {
+    "id": 40,
+    "book": "Sahih Muslim",
+    "hadith_number": 2625,
+    "text": "The best of you are those who learn the Quran and teach it.",
+    "arabic_text": "خَيْرُكُمْ مَنْ تَعَلَّمَ الْقُرْآنَ وَعَلَّمَهُ",
+    "reference": "Muslim 2625"
+  }
+] 
